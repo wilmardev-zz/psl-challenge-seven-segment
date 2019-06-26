@@ -68,7 +68,7 @@ namespace ChallengeSevenSegment
             Console.WriteLine("***************** Instrucciones *****************\n");
             Console.WriteLine("1. Para la correcta ejecución de esta aplicación " +
                               "necesitamos que sitúe el archivo a descifrar en la " +
-                              "siguiente ruta relativa al proyecto: 'Fuentes/ChallengeSevenSegment/Resources/SevenSegementTest.txt', " +
+                              "siguiente ruta relativa al proyecto: 'Fuentes/ChallengeSevenSegment/Resources/SevenSegement.txt', " +
                               "es importante que se mantenga el mismo nombre del archivo.\n"+
                               "Actualmente ya hay un archivo situado allí que cumple con las características solicitadas, por lo " +
                               "cual se puede dar uso de este.\n");
@@ -85,6 +85,11 @@ namespace ChallengeSevenSegment
                                          "del proyecto 'ChallengeSevenSegment.Tests' desde la ventana" +
                                          "de comandos y ejecutar el siguiente comando: 'dotnet test'.\n" +
                                          "De forma inmediata se ejecutarán las pruebas programadas.\n\n");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("\nNOTA: Para las pruebas unitarias se usaron varios archivos .txt para " +
+                "la recreación de diferentes escenarios de fallo y éxito, dicho archivos se encuentran" +
+                "en la ruta relativa 'Fuentes/ChallengeSevenSegment.Tests/Resources/'.\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
 
         }
     }
