@@ -70,6 +70,15 @@ namespace ChallengeSevenSegment.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error: El archivo no contiene tres (3) files o está vacío..
+        /// </summary>
+        internal static string Error_Empy_File {
+            get {
+                return ResourceManager.GetString("Error_Empy_File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error: El archivo no existe. Por favor verifique e intente nuevamente..
         /// </summary>
         internal static string Error_File_No_Exist {
@@ -88,7 +97,7 @@ namespace ChallengeSevenSegment.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error decifrando bloque número {0}: Solo se permiten los valores: &quot;.&quot; , &quot;_&quot; y &quot;|&quot;..
+        ///   Looks up a localized string similar to Error decifrando bloque número {0}: Solo se permiten los valores: &apos;.&apos; , &apos;_&apos; y &apos;|&apos;..
         /// </summary>
         internal static string Error_IncorrectCharacters {
             get {

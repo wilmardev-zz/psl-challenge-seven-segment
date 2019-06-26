@@ -11,7 +11,7 @@ namespace ChallengeSevenSegment
             PrintOptions(out string option);
             string pathFile;
             if (option.Equals("S"))
-                pathFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources\\SevenSegementTest.txt");
+                pathFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources\\SevenSegement.txt");
             else
                 PrintPath(out pathFile);
 
@@ -62,17 +62,30 @@ namespace ChallengeSevenSegment
         private static void PrintInstructions()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("***************** Bienvenido *****************\n");
+            Console.WriteLine("\n***************** Bienvenido *****************\n");
+            Console.WriteLine("Este proyecto está construido en .NetCore 2.2 Console Application, por lo cual " +
+                              "el SDK debe de estar instalado para su correcto funcionamiento.\n");
             Console.WriteLine("***************** Instrucciones *****************\n");
             Console.WriteLine("1. Para la correcta ejecución de esta aplicación " +
                               "necesitamos que sitúe el archivo a descifrar en la " +
-                              "siguiente ruta relativa al proyecto: 'Fuentes/Resources/SevenSegementTest.txt' " +
-                              "es importante que se mantenga el mismo nombre del archivo.\n");
+                              "siguiente ruta relativa al proyecto: 'Fuentes/ChallengeSevenSegment/Resources/SevenSegementTest.txt', " +
+                              "es importante que se mantenga el mismo nombre del archivo.\n"+
+                              "Actualmente ya hay un archivo situado allí que cumple con las características solicitadas, por lo " +
+                              "cual se puede dar uso de este.\n");
             Console.WriteLine("2. Se debió haber compilado la aplicación con el " +
                               "archivo en la ruta indicada.\n");
             Console.WriteLine("3. En caso de elegir una ruta diferente asegúrese de " +
                               "que pondrá la ruta completa (con extensión) cuando se " +
                               "le indique.\n");
+            Console.WriteLine("4. Para ejecutar las pruebas unitarias hay dos alternativas:.\n");
+            Console.WriteLine("   >> 4.1 Abrir el proyecto 'ChallengeSevenSegment.Tests' desde VisualStudio, " +
+                                         "compilar el proyecto y desde el TestExplorer ejecutarlas.\n");
+            Console.WriteLine("   >> 4.2 Compilar el proyecto 'ChallengeSevenSegment.Tests' y situarse " +
+                                         "desde el explorador de windows/linux/mac en la raíz " +
+                                         "del proyecto 'ChallengeSevenSegment.Tests' desde la ventana" +
+                                         "de comandos y ejecutar el siguiente comando: 'dotnet test'.\n" +
+                                         "De forma inmediata se ejecutarán las pruebas programadas.\n\n");
+
         }
     }
 }

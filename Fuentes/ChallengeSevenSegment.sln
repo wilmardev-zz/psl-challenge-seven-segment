@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSevenSegment", "ChallengeSevenSegment.csproj", "{F5D51D08-38FA-4FC2-8E08-2853DC67EE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeSevenSegment", "ChallengeSevenSegment\ChallengeSevenSegment.csproj", "{2D33368A-FDF4-4CA3-8B80-DCF7FCE71A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSevenSegment.Tests", "ChallengeSevenSegment.Tests\ChallengeSevenSegment.Tests.csproj", "{5EC3720C-8D64-4002-84ED-5DF6CD2BFFE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5D51D08-38FA-4FC2-8E08-2853DC67EE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5D51D08-38FA-4FC2-8E08-2853DC67EE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5D51D08-38FA-4FC2-8E08-2853DC67EE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5D51D08-38FA-4FC2-8E08-2853DC67EE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D33368A-FDF4-4CA3-8B80-DCF7FCE71A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D33368A-FDF4-4CA3-8B80-DCF7FCE71A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D33368A-FDF4-4CA3-8B80-DCF7FCE71A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D33368A-FDF4-4CA3-8B80-DCF7FCE71A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC3720C-8D64-4002-84ED-5DF6CD2BFFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC3720C-8D64-4002-84ED-5DF6CD2BFFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC3720C-8D64-4002-84ED-5DF6CD2BFFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC3720C-8D64-4002-84ED-5DF6CD2BFFE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

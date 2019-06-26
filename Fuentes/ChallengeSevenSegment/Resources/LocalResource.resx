@@ -120,6 +120,9 @@
   <data name="Error_Decoding_Number" xml:space="preserve">
     <value>Error: No fue posible decodificar el número.</value>
   </data>
+  <data name="Error_Empy_File" xml:space="preserve">
+    <value>Error: El archivo no contiene tres (3) files o está vacío.</value>
+  </data>
   <data name="Error_File_No_Exist" xml:space="preserve">
     <value>Error: El archivo no existe. Por favor verifique e intente nuevamente.</value>
   </data>
@@ -127,7 +130,7 @@
     <value>Error decifrando bloque número {0}: El tamaño de la fila y columna tiene que ser de tres (3).</value>
   </data>
   <data name="Error_IncorrectCharacters" xml:space="preserve">
-    <value>Error decifrando bloque número {0}: Solo se permiten los valores: "." , "_" y "|".</value>
+    <value>Error decifrando bloque número {0}: Solo se permiten los valores: '.' , '_' y '|'.</value>
   </data>
   <data name="Error_NumberLength" xml:space="preserve">
     <value>Error: Todas las filas y columnas deben de contener la misma longitud (3x3) respectivamente.</value>

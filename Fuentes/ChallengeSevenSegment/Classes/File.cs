@@ -37,7 +37,10 @@ namespace ChallengeSevenSegment
         }
 
         private string DoWork(string[] content)
-        {
+        {          
+            if (content.Length < 3)
+                return Resources.LocalResource.Error_Empy_File;
+
             StringBuilder message = new StringBuilder();
             string[] rowOne = content[0].Split(' ');
             string[] rowTwo = content[1].Split(' ');
